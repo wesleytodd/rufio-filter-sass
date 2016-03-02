@@ -1,0 +1,33 @@
+{
+  "name": "rufio-filter-sass",
+  "version": "1.0.0",
+  "description": "A rufio filter to parse sass with node-sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "happiness && mocha"
+  },
+  "keywords": [
+    "rufio",
+    "filter",
+    "sass",
+    "stream"
+  ],
+  "author": "Wes Todd",
+  "license": "ISC",
+  "devDependencies": {
+    "happiness": "^5.5.0",
+    "mocha": "^2.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wesleytodd/rufio-filter-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wesleytodd/rufio-filter-sass/issues"
+  },
+  "homepage": "https://github.com/wesleytodd/rufio-filter-sass",
+  "dependencies": {
+    "node-sass": "^3.4.2",
+    "through2": "^2.0.1"
+  }
+}
